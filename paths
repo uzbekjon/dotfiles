@@ -1,0 +1,10 @@
+# Check if on OSX
+if [[ $OSTYPE == darwin* ]]; then
+    
+    which -s brew
+    if [[ $? == 0 ]] ; then
+        export PATH="/usr/local/bin:$PATH" # Add Homebrew path
+    fi
+
+    export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
+fi

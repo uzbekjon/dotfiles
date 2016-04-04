@@ -1,0 +1,16 @@
+# Java
+export JAVA_HOME=$(/usr/libexec/java_home)
+export JRE_HOME=$(/usr/libexec/java_home)
+
+# Android SDK
+export ANDROID_HOME=/usr/local/opt/android-sdk
+
+# Git prompt function settings
+export GIT_PS1_SHOWDIRTYSTATE=true
+export GIT_PS1_SHOWSTASHSTATE=true
+export GIT_PS1_SHOWUPSTREAM=true
+export GIT_PS1_SHOWCOLORHINTS=true
+
+# General options
+export CLICOLOR=1
+export LSCOLORS=gxBxhxDxfxhxhxhxhxcxcx

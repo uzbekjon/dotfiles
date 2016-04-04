@@ -1,0 +1,7 @@
+alias ls='ls -GFh'
+alias p='cd ~/Projects'
+alias go='git checkout'
+alias gs='git status'
+alias gd='git diff'
+alias ..='cd ..'
+alias ...='cd ../..'
