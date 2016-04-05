@@ -9,6 +9,6 @@ ln -ivs "${DOTFILES_DIR}/gitconfig"    "${HOME}/.gitconfig"
 # Check if on OSX
 case $OSTYPE in
     darwin*)
-        source "${DOTFILES_DIR}/bin/install-osx.sh"
+        source "${DOTFILES_DIR}/init/install-osx.sh"
     ;;
 esac
