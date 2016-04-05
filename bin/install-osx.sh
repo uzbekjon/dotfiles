@@ -12,3 +12,7 @@ else
     brew update
 fi
 
+#
+# Check if Git is installed
+#
+which -s git || brew install git
