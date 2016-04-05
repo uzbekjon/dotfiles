@@ -2,8 +2,9 @@
 
 DOTFILES_DIR="${HOME}/.dotfiles"
 
-# Create .bash_profile symlink in home directory
-ln -fs "${DOTFILES_DIR}/bash_profile" "${HOME}/.bash_profile"
+# Create .bash_profile and .gitconfig symlinks in home directory
+ln -ivs "${DOTFILES_DIR}/bash_profile" "${HOME}/.bash_profile"
+ln -ivs "${DOTFILES_DIR}/gitconfig"    "${HOME}/.gitconfig"
 
 # Check if on OSX
 case $OSTYPE in
