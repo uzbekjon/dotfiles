@@ -14,13 +14,13 @@ Run bootstrap file. It creates one symlink (`~/.bash_profile`) in your home dire
 **Warning:** Please note that the bootstrap will replace existing `.bash_profile` file.
 
 ```bash
-cd .dotfiles/bin && ./bootstrap.sh
+cd .dotfiles/init && ./bootstrap.sh
 ```
 
 Make sure the `bootstrap.sh` file is executable:
 
 ```bash
-chmod +x ~/.dotfiles/bin/bootstrap.sh
+chmod +x ~/.dotfiles/init/bootstrap.sh
 ```
 
 ### Single line install
@@ -28,5 +28,5 @@ chmod +x ~/.dotfiles/bin/bootstrap.sh
 One line of command to do all these at one fell swoop.
 
 ```bash
-git clone https://github.com/mathiasbynens/dotfiles.git .dotfiles && cd ~/.dotfiles/bin/ && chmod +x bootstrap.sh && ./bootstrap.sh
+git clone https://github.com/mathiasbynens/dotfiles.git .dotfiles && cd ~/.dotfiles/init/ && chmod +x bootstrap.sh && ./bootstrap.sh
 ```
